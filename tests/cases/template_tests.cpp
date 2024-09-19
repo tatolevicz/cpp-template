@@ -1,6 +1,6 @@
 //
 // Created by Arthur Motelevicz on 19/09/24.
 //
-#include <TEMPLATE>
+#include <template>
 #include "catch2/catch.hpp"
 

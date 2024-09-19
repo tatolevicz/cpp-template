@@ -41,6 +41,4 @@ done
 
 echo "Projeto ${PROJECT_NAME} criado com sucesso!"
 
-rm -rf .git
 
-git init

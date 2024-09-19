@@ -1,0 +1,10 @@
+//
+// Created by Arthur Motelevicz on 19/09/24.
+//
+
+#ifndef template
+#define template
+
+#include "internal/template.h"
+
+#endif //template

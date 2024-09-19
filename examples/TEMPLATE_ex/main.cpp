@@ -1,8 +1,6 @@
-#include <TEMPLATE>
+#include <template>
 
 int main(int argc, char** argv)
 {
-
-
   return 0;
 }

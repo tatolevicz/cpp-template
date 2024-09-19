@@ -15,12 +15,9 @@ OS=$(uname)
 # Nome do script para excluí-lo das modificações
 SCRIPT_NAME=$(basename "$0")
 
-# Remove diretórios de build, se existirem
-echo "Removendo diretórios de build..."
-rm -rf cmake-build-* build-*
 
 # Exclui diretórios de build como cmake-build-* e build-*
-EXCLUDE_DIRS="cmake-build-* build-*"
+EXCLUDE_DIRS="cmake-build-* build-* external .git"
 
 # Substitui template pelo nome do projeto em todos os arquivos, exceto o script
 find . -type f ! -name "$SCRIPT_NAME" ! -path "./${EXCLUDE_DIRS}/*" -exec grep -Il "template" {} + | while read -r file; do
